@@ -1,0 +1,114 @@
+export const metadata = {
+  title: "El combate Forgetax explicado: mecánicas clave, ventanas de tiempo y cómo dejar de pagar la penalización",
+  description: "Un desglose completo del combate Forgetax: cómo funciona el sistema de penalización, las ventanas de tiempo, los errores comunes y consejos para mantener limpio tu rendimiento.",
+  category: "mechanics",
+  date: "2026-10-08",
+}
+
+El combate Forgetax se basa en una idea simple y brutal: el juego te cobra una tarifa cada vez que olvidas algo importante. Si dejas pasar un refresco, pierdes una postura o dejas que se te escape una ventana de tiempo, el sistema empieza a sumar silenciosamente a una cuenta que tendrás que pagar más tarde. Por eso muchos jugadores se estancan en los encuentros de mitad de partida: no porque su daño bruto sea demasiado bajo, sino porque nunca aprendieron cómo puntúa realmente el combate Forgetax.
+
+Esta guía desglosa la mecánica pieza por pieza: qué rastrea el sistema, cómo escalan las penalizaciones, dónde se encuentran las ventanas de gracia y qué puedes hacer en esta sesión para dejar de perder valor.
+
+## Qué es realmente el combate Forgetax
+
+En esencia, el combate Forgetax es un sistema de mantenimiento impulsado por penalizaciones. En lugar de recompensar solo lo que haces, también mide lo que dejas de rehacer. Cada encuentro contiene un conjunto de obligaciones recurrentes: un buff que refrescar, un debuff que volver a aplicar, una posición que restablecer, una postura que volver a activar. Ignorar una es sobrevivible. Ignorar varias seguidas es donde el impuesto se acumula.
+
+El nombre proviene de esa metáfora contable. No te castigan por un solo error; te facturan por la negligencia acumulada. Los informes de la comunidad describen de forma consistente la misma experiencia: las peleas se sienten bien durante el primer tramo y luego, de repente, se descontrolan cuando la penalización alcanza la capacidad de atención del jugador.
+
+| Componente | Qué hace | Por qué importa |
+|---|---|---|
+| Acción de mantenimiento | La tarea repetible que debes realizar | Omitirla inicia el reloj de la penalización |
+| Ventana de gracia | Un breve periodo en el que el fallo aún se puede corregir | Recompensa la recuperación rápida por encima de la perfección |
+| Nivel de escalada | La penalización crece con los fallos consecutivos | Castiga las rachas, no los errores aislados |
+| Condición de reinicio | Una acción específica que limpia la deuda | Te da una salida definida |
+| Techo | La penalización máxima que aplicará el sistema | Mantiene los encuentros teóricamente ganables |
+
+Los diseñadores se apoyan en esta estructura porque crea tensión sin añadir botones nuevos. Ya conoces la rotación; el combate Forgetax solo hace que demuestres que puedes mantenerla mientras la pelea intenta distraerte.
+
+## Cómo se acumula la penalización de Forgetax
+
+La parte más malinterpretada de la mecánica es que la penalización rara vez es fija. Escala. Un refresco fallado es un empujón; tres seguidos son un derrumbe. La mayoría de las implementaciones usan una escala por niveles, y el salto entre niveles suele ser más pronunciado que el salto entre fallos individuales.
+
+| Nivel | Activador | Efecto típico | Sensación del jugador |
+|---|---|---|---|
+| Limpio | Sin fallos en el ciclo actual | Sin penalización, rendimiento completo | "Tengo el control" |
+| Nivel 1 | Un mantenimiento fallado | Pérdida menor, fácil de recuperar | "Solo un desliz" |
+| Nivel 2 | Dos fallos consecutivos | Caída notable de rendimiento y sostenibilidad | "Algo va mal" |
+| Nivel 3 | Tres o más fallos consecutivos | Penalización severa y compuesta | "Estoy perdiendo la pelea" |
+| Reinicio | Mantenimiento correcto realizado limpiamente | Penalización eliminada o reducida | "De vuelta a la neutralidad" |
+
+La lección práctica es que el *segundo* fallo importa mucho más que el primero. El Nivel 1 es barato de corregir. El Nivel 2 es donde los jugadores presa del pánico suelen empeorarlo al intentar forzar el daño en lugar de restaurar el mantenimiento.
+
+### Por qué la condición de reinicio importa más que el daño
+
+Muchos jugadores tratan el combate Forgetax como una prueba de daño y responden a las penalizaciones apretando más. Eso es al revés. La condición de reinicio es la acción de mayor valor disponible cuando vas por detrás, porque limpiar la deuda restaura tu línea base. El daño infligido mientras cargas con una penalización de Nivel 3 a menudo vale una fracción de lo que produce la misma rotación desde un estado limpio.
+
+## Ventanas de tiempo: dónde se ganan las peleas
+
+El timing es el segundo pilar. El combate Forgetax no suele exigir entradas perfectas al frame, pero sí espera que respetes las fases de un encuentro. El mantenimiento realizado en la fase equivocada con frecuencia se desperdicia: el buff se cae antes de que importe, o el reinicio aterriza durante una ventana en la que no puede registrarse.
+
+| Ventana | Cuándo aparece | Mejor uso | Riesgo de ignorarla |
+|---|---|---|---|
+| Apertura | Primeros momentos de la pelea | Establecer todo el mantenimiento antes de que aumente la presión | Empezar la pelea ya en Nivel 1 |
+| Transición | Entre fases u oleadas adicionales | Refrescar y reiniciar mientras el jefe está bloqueado | Entrar en la siguiente fase cargando deuda |
+| Presión | Pico de daño o densidad de mecánicas | Solo mantener, no sobreextenderse | La ruta más rápida al Nivel 3 |
+| Recuperación | Después de que se resuelve una mecánica importante | Limpiar penalizaciones y reconstruir | Ventana segura desperdiciada |
+
+La experiencia de los jugadores sugiere que la ventana de transición es la oportunidad más infrautilizada de todo el sistema. Es corta, es segura y es exactamente cuando la mayoría de los jugadores están ocupados reposicionándose en lugar de refrescar.
+
+## Errores comunes que activan el impuesto
+
+Algunos errores aparecen una y otra vez en las discusiones de la comunidad sobre el combate Forgetax. Ninguno es un fallo mecánico: son fallos de atención.
+
+- **Perseguir daño durante el Nivel 2.** El instinto de "compensar" el rendimiento perdido es la forma más común de que los jugadores lleguen al Nivel 3.
+- **Refrescar demasiado pronto.** Aplicar el mantenimiento demasiado pronto a menudo desperdicia la acción y deja un hueco después, creando un fallo autoinfligido.
+- **Ignorar la condición de reinicio.** Muchos jugadores no saben qué limpia su penalización, así que nunca la activan deliberadamente.
+- **Visión de túnel en la barra de vida del jefe.** La penalización es invisible en la interfaz en algunas implementaciones, así que los jugadores nunca notan que está subiendo.
+- **Omitir el mantenimiento en fases "fáciles".** Las fases triviales son precisamente cuando los jugadores limpios acumulan ventaja para las difíciles.
+
+| Error | Coste inmediato | Coste a largo plazo |
+|---|---|---|
+| Empujar daño en Nivel 2 | Tiempos de reutilización desperdiciados | Con frecuencia escala a Nivel 3 |
+| Refresco temprano | Tiempo activo muerto | Crea un hueco más tarde en la pelea |
+| Condición de reinicio desconocida | Sin ruta de recuperación | La penalización pasa a la siguiente fase |
+| Ignorar fases fáciles | Pérdida leve | Oportunidad perdida de acumular tiempo limpio |
+
+## Consejos prácticos para limpiar tu juego
+
+La buena noticia es que el combate Forgetax recompensa la preparación mucho más que los reflejos. Estos hábitos son los que suelen recomendar los jugadores experimentados.
+
+| Hábito | Cómo practicarlo | Beneficio esperado |
+|---|---|---|
+| Verbalizar tu mantenimiento | Di cada refresco en voz alta durante unas cuantas partidas | Construye recuerdo automático |
+| Anclar el mantenimiento a mecánicas | Vincula un refresco a una animación del jefe | Reduce la carga cognitiva |
+| Practicar el reinicio | Practica limpiar penalizaciones en peleas de bajo riesgo | Convierte la recuperación en reflejo |
+| Revisar una pelea a la vez | Anota el momento exacto en que ocurre tu primer fallo | Revela tu fase débil personal |
+| Aceptar el Nivel 1 | Corrige el desliz de inmediato en lugar de sobrecorregir | Evita la escalada |
+
+### Crea una tarjeta de rotación de una página
+
+Escribe tu lista de mantenimiento en orden de prioridad y mantenla visible durante la práctica inicial. El objetivo no es leerla para siempre, sino eliminar las conjeturas durante el tiempo suficiente para que la secuencia se vuelva automática. La mayoría de los jugadores informa que solo necesita un puñado de sesiones antes de que el orden se fije.
+
+### Separa "mantener" de "empujar"
+
+Divide mentalmente cada pelea en modo mantener y modo empujar. En modo mantener, tu único trabajo es mantener la penalización en cero. En modo empujar, gastas la ventaja que has construido. Los jugadores que mezclan ambos modos son los que terminan pagando el impuesto en el peor momento posible.
+
+### Rastrea tu primer fallo, no el último
+
+Al revisar un intento fallido, la tentación es analizar la muerte. Por lo general, ese es el enfoque equivocado. Busca el *primer* mantenimiento fallado: ahí es donde comenzó la deuda, y es el único error que realmente necesitas corregir.
+
+Para obtener más contexto sobre cómo se documentan y discuten los sistemas de combate en la base de jugadores en general, [las páginas de tienda y centro de la comunidad de Steam](https://store.steampowered.com/) siguen siendo un lugar fiable para leer notas de desarrolladores y análisis de jugadores en paralelo.
+
+## Preguntas frecuentes
+
+**¿El combate Forgetax es lo mismo que una rotación de mantenimiento estándar?**
+No exactamente. Una rotación estándar recompensa la ejecución. El combate Forgetax además penaliza la negligencia, y esas penalizaciones escalan. Puedes ejecutar una secuencia de daño perfecta y aun así perder terreno si dejas que el mantenimiento decaiga.
+
+**¿Puedo ignorar la penalización y simplemente superarla en daño?**
+Rara vez. En la mayoría de las implementaciones, la penalización compuesta supera cualquier ventaja de daño que ganes al omitir el mantenimiento. Limpiar la deuda mediante la condición de reinicio es casi siempre la ruta más rápida de vuelta al rendimiento completo.
+
+**¿Cuál es el error más grande en el combate Forgetax?**
+Empujar daño mientras cargas con una penalización de Nivel 2. Se siente productivo, pero es el camino más común al Nivel 3 y la razón por la que tantos intentos colapsan en la segunda mitad de una pelea.
+
+**¿Cuánto tiempo se tarda en crear los hábitos correctos?**
+Los informes de la comunidad sugieren que un puñado de sesiones enfocadas suele ser suficiente para interiorizar el orden de mantenimiento, siempre que revises tu primer fallo después de cada intento en lugar de revisar solo la muerte.

@@ -8,6 +8,12 @@
   },
   "nav": {
     "home": "Home",
+    "guide": "Guide",
+    "mechanics": "Mechanics",
+    "items": "Items",
+    "progression": "Progression",
+    "release": "Release",
+    "community": "Community",
     "menu": "Menu",
     "toggleTheme": "Toggle theme"
   },
@@ -417,7 +423,30 @@
       "secondary": "Play on Steam"
     }
   },
-  "bosses": {},
+  "guide": {
+    "overviewTitle": "Forgetax Guides",
+    "overviewDescription": "Start here for Forgetax beginner guides, tips, and walkthroughs that cover your first forge runs and the core loop."
+  },
+  "mechanics": {
+    "overviewTitle": "Forgetax Mechanics",
+    "overviewDescription": "Learn how Forgetax smithing, sword forging, combat, and its roguelite run structure actually work under the hood."
+  },
+  "items": {
+    "overviewTitle": "Forgetax Items & Upgrades",
+    "overviewDescription": "Browse Forgetax swords, weapons, materials, and upgrade paths, including how to chase a god tier sword."
+  },
+  "progression": {
+    "overviewTitle": "Forgetax Progression",
+    "overviewDescription": "Understand Forgetax progression, luck and great successes, sword upgrades, and the looming Dragon's Tax."
+  },
+  "release": {
+    "overviewTitle": "Forgetax Release Info",
+    "overviewDescription": "Forgetax release date, Steam and PC details, demo release, official trailer, and developer information."
+  },
+  "community": {
+    "overviewTitle": "Forgetax Community",
+    "overviewDescription": "Find the Forgetax Reddit, community hubs, player discussions, updates, and the latest news."
+  },
   "shared": {
     "wikiNavigation": "Wiki Navigation",
     "activeCodes": "Active Codes",
@@ -448,10 +477,10 @@
     "officialYoutube": "Official YouTube",
     "vvBuilder": "Forge Builder (Sword Planner)",
     "beginnerGuide": "Beginner Guide",
-    "raceGuides": "Race Guides",
-    "bossGuides": "Boss Guides",
-    "buildGuide": "Build Guide",
     "privacyPolicy": "Privacy Policy",
-    "termsOfService": "Terms of Service"
+    "termsOfService": "Terms of Service",
+    "mechanicsGuides": "Mechanics",
+    "itemsGuides": "Items & Upgrades",
+    "progressionGuides": "Progression"
   }
 }
