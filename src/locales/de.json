@@ -1,1 +1,486 @@
-{}
+{
+  "site": {
+    "name": "Forgetax Wiki",
+    "shortName": "Forgetax",
+    "tagline": "Schmiede-Guides, Schwert-Upgrades & Relikt-Builds",
+    "description": "Dein vollständiges Forgetax Wiki für das düstere First-Person-Schmiede-Roguelite — Schwert-Upgrades, Relikt-Builds, Schmiedestrategien und Fortschritts-Guides.",
+    "legalNotice": "Inoffizielles Fan-Wiki. Von Spielern für Spieler gemacht."
+  },
+  "nav": {
+    "home": "Startseite",
+    "guide": "Guide",
+    "mechanics": "Mechaniken",
+    "items": "Gegenstände",
+    "progression": "Fortschritt",
+    "release": "Release",
+    "community": "Community",
+    "menu": "Menü",
+    "toggleTheme": "Design wechseln"
+  },
+  "home": {
+    "meta": {
+      "title": "Forgetax Wiki – Guides, Gegenstände & Updates",
+      "description": "Entdecke das Forgetax Wiki mit detaillierten Gameplay-Guides, Gegenstandsinfos, Mechaniken, Updates, Strategien und nützlichen Ressourcen für Spieler."
+    },
+    "hero": {
+      "eyebrow": "Von Fans erstelltes Community-Wiki",
+      "title": "Forgetax Wiki",
+      "description": "Meistere die Schmiede in Forgetax. Greife auf vollständige Schmiede-Guides, Schwert-Upgrade-Strategien, Relikt-Builds, Gegenstandsdaten und Fortschrittstipps für jeden Run zu.",
+      "stats": [
+        "Schmiede-Guides",
+        "Schwert-Upgrades",
+        "Relikt-Builds",
+        "Fortschrittstipps"
+      ],
+      "primaryCta": "Anfänger-Guide",
+      "secondaryCta": "Schwert-Upgrade-Guide",
+      "tertiaryCta": "Aktive Codes",
+      "videoLabel": "Offizielle Medien"
+    },
+    "updates": {
+      "title": "Neueste Updates",
+      "browse": "Alle Guides durchsuchen",
+      "viewAll": "Alle anzeigen"
+    },
+    "start": {
+      "eyebrow": "Hier starten",
+      "title": "Deine ForgeTax-Reise",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Anfänger-Guide",
+          "description": "Lerne die Schmiedeschleife, sichere dir dein erstes Erz und vermeide die frühen Fehler, die neue Schmiede ausbremsen."
+        },
+        {
+          "number": "2",
+          "title": "Schwert-Upgrade-Guide",
+          "description": "Wähle eine Führungsklinge, lies ihre Wertewürfe und treibe sie zur nächsten Stufe, bevor die Steuer fällig wird."
+        },
+        {
+          "number": "3",
+          "title": "Materialien-Farming-Guide",
+          "description": "Finde zuverlässige Erz- und seltene Komponentenquellen, damit dein nächstes Upgrade nie an einem Engpass hängt."
+        },
+        {
+          "number": "4",
+          "title": "Drachensteuer-Guide",
+          "description": "Plane deine Wirtschaft um die Zahlung des Drachen und verwandle eine starke Klinge in einen abgeschlossenen Run."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Beliebte Seiten",
+      "title": "Gerade angesagt",
+      "quickLinks": [
+        "Schwert-Upgrades",
+        "Materialien",
+        "Große Erfolge",
+        "Drachensteuer"
+      ],
+      "cards": [
+        {
+          "badge": "Anfänger",
+          "title": "Anfänger-Guide",
+          "description": "Alles, was du für deinen ersten Schmiede-Run brauchst, vom Tutorial bis zur ersten bezahlten Bestellung.",
+          "href": "/guide/forgetax-beginner-guide"
+        },
+        {
+          "badge": "Kern",
+          "title": "Schwertschmiede-Guide",
+          "description": "Erzstufen, Wärmemanagement, Hammer-Timing und die Wertewürfe, die eine Klinge wertvoll machen.",
+          "href": "/mechanics/forgetax-sword-forging"
+        },
+        {
+          "badge": "Aktualisiert",
+          "title": "Materialien-Guide",
+          "description": "Zuverlässige Farmquellen, Prioritätsstufen und die seltenen Komponenten, die dein nächstes Upgrade blockieren.",
+          "href": "/items/forgetax-materials"
+        },
+        {
+          "badge": "Beliebt",
+          "title": "Schwert-Upgrade-Guide",
+          "description": "Fortschrittsreihenfolge, Materialprioritäten und die Fehler, die deine Führungsklinge am längsten ausbremsen.",
+          "href": "/progression/forgetax-sword-upgrade"
+        },
+        {
+          "badge": "Neu",
+          "title": "Schmiedesystem erklärt",
+          "description": "Wie Schmieden, Aufwerten und Veredeln Rohmaterialien in dauerhafte Stärke verwandeln.",
+          "href": "/mechanics/forgetax-forge-system"
+        },
+        {
+          "badge": "Beliebt",
+          "title": "Schmied & Schmiedesteuer",
+          "description": "Wie die Schmiedesteuer des Drachen die Handwerksgewinne auffrisst und welche Gewohnheiten deine Marge sichern.",
+          "href": "/mechanics/forgetax-blacksmith"
+        },
+        {
+          "badge": "Neu",
+          "title": "Roguelite-Mechaniken",
+          "description": "Run-Struktur, Permadeath, Build-Synergien und die Meta-Freischaltungen, die zwischen Versuchen bestehen bleiben.",
+          "href": "/mechanics/forgetax-roguelite"
+        },
+        {
+          "badge": "Beliebt",
+          "title": "Große Erfolge",
+          "description": "Meilensteine, tägliche Gewohnheiten und die Tracking-Methoden, die langfristigen Fortschritt am Laufen halten.",
+          "href": "/progression/forgetax-great-successes"
+        },
+        {
+          "badge": "Neu",
+          "title": "PC-Release-Guide",
+          "description": "Wie du deinen Rechner vorbereitest, offizielle Downloads prüfst und die Einstellungen für den Starttag optimierst.",
+          "href": "/release/forgetax-pc"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "Was ist ForgeTax?",
+      "paragraphs": [
+        "ForgeTax ist ein Schmiede-Roguelite, das auf einer klaren Idee aufbaut: Du führst eine Fantasy-Schmiede, und ein Drache erwartet bezahlt zu werden. In jedem Run sammelst du Erz, erhitzt Metall, hämmerst Schwerter, würfelst ihre Werte und verkaufst die Ergebnisse an Abenteurer, bevor die Schmiedesteuer des Drachen fällig wird.",
+        "Zwischen den Runs reinvestierst du in bessere Werkzeuge, höhere Materialstufen und stärkere Klingen. Große Erfolge und glückliche Wertewürfe verwandeln ein ordentliches Schwert in eine Führungswaffe, während eine verpasste Steuerzahlung den Run in Asche enden lässt. Kurze, wiederholbare Sitzungen und permanente Freischaltungen sorgen dafür, dass jeder gescheiterte Versuch den nächsten nährt."
+      ],
+      "stats": [
+        {
+          "label": "Genre",
+          "value": "Schmiede-Roguelite"
+        },
+        {
+          "label": "Plattform",
+          "value": "PC (Steam)"
+        },
+        {
+          "label": "Kernschleife",
+          "value": "Schmieden, Würfeln, Verkaufen"
+        },
+        {
+          "label": "Run-Stil",
+          "value": "Kurze Roguelite-Runs"
+        },
+        {
+          "label": "Hauptbedrohung",
+          "value": "Die Drachensteuer"
+        },
+        {
+          "label": "Schlüsselmechanik",
+          "value": "Wertewürfe"
+        },
+        {
+          "label": "Wiederspielbarkeit",
+          "value": "Hoch"
+        }
+      ],
+      "cta": "Anfänger-Guide lesen"
+    },
+    "explore": {
+      "title": "ForgeTax Wiki erkunden",
+      "description": "Alles, was ein Schmied braucht: Anfänger-Walkthroughs, Schwertwert-Stufen, Relikt-Referenzen, Schmiedestrategie, Run-Mechaniken, Erfolge, Steuerung und PC-Anforderungen.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "ForgeTax Anfänger-Guide",
+          "description": "Dieses Modul behandelt die ersten Schritte für neue Spieler, einschließlich der Schmiedeschleife, des Erhitzens von Schwertern, des Schlagens auf den Amboss, des Risikomanagements und des Überlebens früher Tributforderungen. Es hilft Anfängern, die Kernmechaniken zu verstehen, bevor sie fortgeschrittene Strategien versuchen.",
+          "href": "/guide/forgetax-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Schließe das Tutorial ab, ohne es zu überspringen, damit du die Schmiedesteuerung lernst"
+            },
+            {
+              "label": "2",
+              "detail": "Öffne jedes Menü einmal und lies die Tooltips, um die Oberfläche zu erfassen"
+            },
+            {
+              "label": "3",
+              "detail": "Sichere mehr Erz, als ein Versuch wert ist, bevor du herstellst"
+            },
+            {
+              "label": "4",
+              "detail": "Wähle eine einzige Klinge als Führungswaffe und werte nur diese auf"
+            },
+            {
+              "label": "5",
+              "detail": "Erfülle einfache Kundenaufträge, um deine ersten Upgrades zu finanzieren"
+            },
+            {
+              "label": "6",
+              "detail": "Lege Gold für die Schmiedesteuer des Drachen zurück, bevor sie fällig wird"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "ForgeTax Schwertwert-Guide",
+          "description": "Dieses Modul erklärt, wie der Schwertwert wächst, wie Upgrades den Gewinn beeinflussen und wie Spieler entscheiden können, wann sie weiter schmieden oder aufhören sollten, bevor sie eine wertvolle Klinge verlieren. Es zielt auf Suchanfragen zu Schwert-Upgrades, Wertberechnungen und Schmiedeeffizienz ab.",
+          "href": "/progression/forgetax-sword-upgrade",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Klingen mit Großem Erfolg, erstklassigen Wertewürfen und der höchsten Upgrade-Obergrenze"
+            },
+            {
+              "label": "A",
+              "detail": "Vollständig aufgewertete Führungsschwerter, die jede Steuerprüfung bestehen"
+            },
+            {
+              "label": "B",
+              "detail": "Solide Klingen aus der Run-Mitte, die sich zum Aufwerten und Verkaufen lohnen"
+            },
+            {
+              "label": "C",
+              "detail": "Starterschwerter, die am besten zu Erz verwertet oder billig verkauft werden"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "ForgeTax Relikt-Guide",
+          "description": "Dieses Modul organisiert reliktbezogene Informationen, darunter, wie Relikt-Effekte Schmiedestrategien beeinflussen und wie Spieler stärkere Kombinationen erstellen können. Es hilft Nutzern, die nach Relikt-Effekten, Builds und Optimierungstipps suchen.",
+          "href": "/items/forgetax-god-tier-sword",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Gott-Stufe",
+              "detail": "Seltene legendäre Klingen, die einen Endgame-Build verankern"
+            },
+            {
+              "label": "Seltenes Erz",
+              "detail": "Knappe Komponenten, die die stärksten Upgrades blockieren"
+            },
+            {
+              "label": "Großer Wurf",
+              "detail": "Perfekte Wertewürfe, die den Wert eines Relikts vervielfachen"
+            },
+            {
+              "label": "Verwerten",
+              "detail": "Verwandle übrige Relikte in Materialien für das nächste Handwerk"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "ForgeTax Schmiedestrategie",
+          "description": "Dieses Modul bietet Strategietipps für den Umgang mit Bruchchancen, Tributzahlungen und Ressourcenentscheidungen während Runs. Es konzentriert sich darauf, das Überleben zu verbessern und erfolgreiche Schmiedeversuche zu maximieren.",
+          "href": "/mechanics/forgetax-forge-system",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Führung",
+              "detail": "Investiere Upgrades in eine primäre Klinge pro Run"
+            },
+            {
+              "label": "Bank",
+              "detail": "Horte doppelt so viele Materialien vor einem großen Handwerk"
+            },
+            {
+              "label": "Hitze",
+              "detail": "Arbeite im Hitzefenster für sauberere Wertewürfe"
+            },
+            {
+              "label": "Bewerten",
+              "detail": "Vergleiche jede Klinge mit deiner Führungswaffe, bevor du verkaufst"
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "ForgeTax Frenzy-Guide",
+          "description": "Dieses Modul erklärt die Frenzy-Mechanik, wie sie aufgeladen wird und wie Spieler sie nutzen können, um kraftvolle Schmiedefenster zu schaffen. Es zielt auf Spieler, die fortgeschrittene Mechaniken und Run-Optimierung suchen.",
+          "href": "/mechanics/forgetax-roguelite",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Bereite ein Startloadout vor, das zu deinen permanenten Freischaltungen passt"
+            },
+            {
+              "label": "2",
+              "detail": "Gib In-Run-Währung für Tempo aus und spare Meta-Währung"
+            },
+            {
+              "label": "3",
+              "detail": "Wechsle zu einer Synergie, wenn Elitegegner mitten im Run auftauchen"
+            },
+            {
+              "label": "4",
+              "detail": "Spare deine stärksten Upgrades für das Boss-Tor"
+            },
+            {
+              "label": "5",
+              "detail": "Verwandle Belohnungen nach dem Run in permanente Schmiede-Upgrades"
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "ForgeTax Erfolge-Guide",
+          "description": "Dieses Modul listet Erfolgsziele auf und bietet Anleitungen zum Abschluss schwieriger Herausforderungen. Es hilft Erfolgsjägern, Anforderungen und Abschlussstrategien zu finden.",
+          "href": "/progression/forgetax-great-successes",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Erster Run",
+              "detail": "Schließe einen vollständigen Run ab und begleiche die Schmiedesteuer"
+            },
+            {
+              "label": "Stufensprung",
+              "detail": "Schalte die nächste Materialstufe in der Schmiede frei"
+            },
+            {
+              "label": "Großer Wurf",
+              "detail": "Erziele einen Großen Erfolg auf einer Führungsklinge"
+            },
+            {
+              "label": "Drachensieg",
+              "detail": "Besiege den Drachen und schließe einen Run ab"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "ForgeTax Steuerung-Guide",
+          "description": "Dieses Modul behandelt die wichtigsten Eingaben der Schmiede, einschließlich Wärmemanagement, Hammer-Timing und Abschrecken. Es hilft neuen Spielern zu lernen, wie sie die Schmiede bedienen und Aktionen während Runs steuern.",
+          "href": "/mechanics/forgetax-smithing",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Hitze",
+              "detail": "Halte den Rohling im Arbeitshitze-Fenster"
+            },
+            {
+              "label": "Hammer",
+              "detail": "Schlage in gleichmäßigem Rhythmus, um den Wurf zu schützen"
+            },
+            {
+              "label": "Abschrecken",
+              "detail": "Wähle ein Kühlmittel, um die Werteverteilung zu lenken"
+            },
+            {
+              "label": "Abschluss",
+              "detail": "Leg dich erst fest, wenn die Klinge deine Führungswaffe übertrifft"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "ForgeTax Systemanforderungen",
+          "description": "Dieses Modul bietet PC-Anforderungen, unterstützte Plattformen und technische Informationen für Spieler, die prüfen, ob ihr System das Spiel ausführen kann. Es deckt gängige SEO-Suchanfragen zu Downloads und Leistung ab.",
+          "href": "/release/forgetax-pc",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "PC",
+              "detail": "Läuft unter Windows über die offizielle Steam-Veröffentlichung"
+            },
+            {
+              "label": "Steam",
+              "detail": "Setze die Store-Seite auf die Wunschliste und folge ihr für Startbenachrichtigungen"
+            },
+            {
+              "label": "GPU",
+              "detail": "Aktualisiere die Grafiktreiber vor dem ersten Tag"
+            },
+            {
+              "label": "Demo",
+              "detail": "Probiere die kostenlose Demo vor dem Start aus"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "description": "Schnelle Antworten auf die häufigsten Fragen zu ForgeTax.",
+      "items": [
+        {
+          "question": "Was ist ForgeTax?",
+          "answer": "ForgeTax ist ein Schmiede-Roguelite über das Führen einer Fantasy-Schmiede. Du sammelst Erz, hämmerst Schwerter, würfelst ihre Werte, verkaufst die Ergebnisse an Abenteurer und rennst darum, die Schmiedesteuer des Drachen zu bezahlen, bevor der Run endet."
+        },
+        {
+          "question": "Wie funktioniert die Schmiedesteuer des Drachen?",
+          "answer": "Der Drache erhebt eine wiederkehrende Gebühr, die als Timer des Runs dient. Lege genug Gold für die Zahlung zurück, bevor du es für einen weiteren Reroll ausgibst, sonst endet der Run in Asche."
+        },
+        {
+          "question": "Was sind Große Erfolge in ForgeTax?",
+          "answer": "Ein Großer Erfolg ist ein seltenes, hochwertiges Ergebnis beim Schmieden oder Aufwerten. Er liefert meist den größten einzelnen Sprung im Wert einer Waffe, also jage ihn auf deiner stärksten Klinge."
+        },
+        {
+          "question": "Sollte ich in ForgeTax jedes Schwert aufwerten?",
+          "answer": "Nein. Wähle eine Waffe pro Run als deine Führungswaffe und stecke Upgrades hinein. Halte eine billige Ersatzwaffe für Kundenaufträge bereit und verwertete jede Klinge, die unter deine Führungswaffe fällt."
+        },
+        {
+          "question": "Welche Plattformen unterstützt ForgeTax?",
+          "answer": "ForgeTax ist auf PC ausgerichtet und wird über seine Steam-Store-Seite verfolgt, wo du es auf die Wunschliste setzen und Entwickler-Updates verfolgen kannst. Prüfe das offizielle Angebot für aktuelle Demo- und Startdetails."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Bereit, die Schmiede in Forgetax zu meistern?",
+      "description": "Von deinem ersten Hammerschlag bis zu Endgame-Runs mit Drachentribut deckt unser Community-Wiki jede Schmiede, jedes Relikt und jedes Schwert-Upgrade mit kostenlosen, aktuellen Guides ab.",
+      "primary": "Lies den Anfänger-Guide",
+      "secondary": "Auf Steam spielen"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Forgetax Guides",
+    "overviewDescription": "Starte hier für Forgetax Anfänger-Guides, Tipps und Walkthroughs, die deine ersten Schmiede-Runs und die Kernschleife abdecken."
+  },
+  "mechanics": {
+    "overviewTitle": "Forgetax Mechaniken",
+    "overviewDescription": "Lerne, wie Forgetax Schmieden, Schwertschmieden, Kampf und seine Roguelite-Run-Struktur tatsächlich funktionieren."
+  },
+  "items": {
+    "overviewTitle": "Forgetax Gegenstände & Upgrades",
+    "overviewDescription": "Durchsuche Forgetax Schwerter, Waffen, Materialien und Upgrade-Pfade, einschließlich der Jagd nach einem Schwert der Gott-Stufe."
+  },
+  "progression": {
+    "overviewTitle": "Forgetax Fortschritt",
+    "overviewDescription": "Verstehe den Forgetax Fortschritt, Glück und Große Erfolge, Schwert-Upgrades und die drohende Drachensteuer."
+  },
+  "release": {
+    "overviewTitle": "Forgetax Release-Infos",
+    "overviewDescription": "Forgetax Release-Datum, Steam- und PC-Details, Demo-Release, offizieller Trailer und Entwicklerinformationen."
+  },
+  "community": {
+    "overviewTitle": "Forgetax Community",
+    "overviewDescription": "Finde das Forgetax Reddit, Community-Hubs, Spielerdiskussionen, Updates und die neuesten Nachrichten."
+  },
+  "shared": {
+    "wikiNavigation": "Wiki-Navigation",
+    "activeCodes": "Aktive Codes",
+    "updated": "Aktualisiert",
+    "viewAllCodes": "Alle Codes anzeigen",
+    "playOnRoblox": "Auf Steam spielen",
+    "inThisSection": "In diesem Abschnitt",
+    "tableOfContents": "Inhaltsverzeichnis",
+    "nextSteps": "Nächste Schritte",
+    "needHelp": "Brauchst du Hilfe?",
+    "relatedReading": "Verwandte Lektüre",
+    "relatedGuides": "Verwandte Guides",
+    "readMore": "Mehr lesen",
+    "officialMedia": "Offizielle Medien",
+    "home": "Startseite",
+    "noGuidesAvailable": "Noch keine Guides verfügbar. Schau bald wieder vorbei!"
+  },
+  "footer": {
+    "aboutTitle": "Forgetax Wiki",
+    "about": "Forgetax Wiki ist ein unabhängiger, von Fans erstellter Guide-Hub, der Schmiedestrategien, Schwert-Upgrades, Relikt-Builds, Bosse und essenzielles Spielwissen für neue und erfahrene Spieler gleichermaßen abdeckt.",
+    "quickLinks": "Schnelllinks",
+    "guides": "Guides",
+    "legal": "Rechtliches",
+    "copyright": "2026 Forgetax Wiki. Nicht mit GraveYardDev oder der Valve Corporation verbunden.",
+    "description": "Düsteres First-Person-Schmiede-Roguelite. Hämmere Schwerter, beuge die Chancen, zahle den Tribut des Drachen.",
+    "playGame": "Forgetax auf Steam spielen",
+    "officialDiscord": "Steam-Community",
+    "officialYoutube": "Offizielles YouTube",
+    "vvBuilder": "Schmiede-Planer (Schwertplaner)",
+    "beginnerGuide": "Anfänger-Guide",
+    "privacyPolicy": "Datenschutzerklärung",
+    "termsOfService": "Nutzungsbedingungen",
+    "mechanicsGuides": "Mechaniken",
+    "itemsGuides": "Gegenstände & Upgrades",
+    "progressionGuides": "Fortschritt"
+  }
+}

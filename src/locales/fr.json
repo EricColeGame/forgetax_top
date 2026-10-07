@@ -1,1 +1,486 @@
-{}
+{
+  "site": {
+    "name": "Forgetax Wiki",
+    "shortName": "Forgetax",
+    "tagline": "Guides de forge, améliorations d'épée et builds de reliques",
+    "description": "Votre wiki Forgetax complet pour le roguelite de forge à la première personne et à l'ambiance sombre : améliorations d'épée, builds de reliques, stratégies de forge et guides de progression.",
+    "legalNotice": "Wiki de fans non officiel. Fait par des joueurs, pour des joueurs."
+  },
+  "nav": {
+    "home": "Accueil",
+    "guide": "Guide",
+    "mechanics": "Mécaniques",
+    "items": "Objets",
+    "progression": "Progression",
+    "release": "Sortie",
+    "community": "Communauté",
+    "menu": "Menu",
+    "toggleTheme": "Changer de thème"
+  },
+  "home": {
+    "meta": {
+      "title": "Forgetax Wiki : guides, objets et nouveautés",
+      "description": "Explorez Forgetax Wiki avec des guides de jeu détaillés, des informations sur les objets, les mécaniques, les mises à jour, les stratégies et des ressources utiles pour les joueurs."
+    },
+    "hero": {
+      "eyebrow": "Wiki communautaire réalisé par des fans",
+      "title": "Forgetax Wiki",
+      "description": "Maîtrisez la forge dans Forgetax. Accédez à des guides de forge complets, des stratégies d'amélioration d'épée, des builds de reliques, des données d'objets et des conseils de progression pour chaque partie.",
+      "stats": [
+        "Guides de forge",
+        "Améliorations d'épée",
+        "Builds de reliques",
+        "Conseils de progression"
+      ],
+      "primaryCta": "Guide du débutant",
+      "secondaryCta": "Guide d'amélioration d'épée",
+      "tertiaryCta": "Codes actifs",
+      "videoLabel": "Médias officiels"
+    },
+    "updates": {
+      "title": "Dernières nouveautés",
+      "browse": "Parcourir tous les guides",
+      "viewAll": "Tout voir"
+    },
+    "start": {
+      "eyebrow": "Commencez ici",
+      "title": "Votre parcours ForgeTax",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Guide du débutant",
+          "description": "Apprenez la boucle de forge, mettez de côté votre premier minerai et évitez les erreurs précoces qui freinent les nouveaux forgerons."
+        },
+        {
+          "number": "2",
+          "title": "Guide d'amélioration d'épée",
+          "description": "Choisissez une lame principale, lisez ses jets de statistiques et poussez-la vers le palier suivant avant que la taxe ne soit due."
+        },
+        {
+          "number": "3",
+          "title": "Guide de farm des matériaux",
+          "description": "Trouvez des sources fiables de minerai et de composants rares pour que votre prochaine amélioration n'attende jamais un goulot d'étranglement."
+        },
+        {
+          "number": "4",
+          "title": "Guide de la taxe du dragon",
+          "description": "Planifiez votre économie autour du paiement du dragon et transformez une lame puissante en une partie terminée."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Pages populaires",
+      "title": "Tendances du moment",
+      "quickLinks": [
+        "Améliorations d'épée",
+        "Matériaux",
+        "Grands succès",
+        "Taxe du dragon"
+      ],
+      "cards": [
+        {
+          "badge": "Débutant",
+          "title": "Guide du débutant",
+          "description": "Tout ce qu'il vous faut pour votre première partie de forge, du tutoriel à votre première commande payée.",
+          "href": "/guide/forgetax-beginner-guide"
+        },
+        {
+          "badge": "Essentiel",
+          "title": "Guide de forge d'épées",
+          "description": "Paliers de minerai, gestion de la chaleur, timing du marteau et les jets de statistiques qui rendent une lame digne d'être gardée.",
+          "href": "/mechanics/forgetax-sword-forging"
+        },
+        {
+          "badge": "Mis à jour",
+          "title": "Guide des matériaux",
+          "description": "Sources de farm fiables, paliers de priorité et les composants rares qui bloquent votre prochaine amélioration.",
+          "href": "/items/forgetax-materials"
+        },
+        {
+          "badge": "Populaire",
+          "title": "Guide d'amélioration d'épée",
+          "description": "Ordre de progression, priorités de matériaux et les erreurs qui freinent le plus longtemps votre lame principale.",
+          "href": "/progression/forgetax-sword-upgrade"
+        },
+        {
+          "badge": "Nouveau",
+          "title": "Le système de forge expliqué",
+          "description": "Comment la forge, l'amélioration et le raffinage transforment les matières premières en puissance permanente.",
+          "href": "/mechanics/forgetax-forge-system"
+        },
+        {
+          "badge": "Populaire",
+          "title": "Forgeron et taxe de forge",
+          "description": "Comment la taxe de forge du dragon vide les profits d'artisanat et les habitudes qui préservent vos marges.",
+          "href": "/mechanics/forgetax-blacksmith"
+        },
+        {
+          "badge": "Nouveau",
+          "title": "Mécaniques roguelite",
+          "description": "Structure des parties, mort permanente, synergies de build et les déblocages meta qui persistent entre les tentatives.",
+          "href": "/mechanics/forgetax-roguelite"
+        },
+        {
+          "badge": "Populaire",
+          "title": "Grands succès",
+          "description": "Jalons, habitudes quotidiennes et les méthodes de suivi qui font avancer la progression à long terme.",
+          "href": "/progression/forgetax-great-successes"
+        },
+        {
+          "badge": "Nouveau",
+          "title": "Guide de sortie PC",
+          "description": "Comment préparer votre machine, vérifier les téléchargements officiels et régler les paramètres pour le jour du lancement.",
+          "href": "/release/forgetax-pc"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "Qu'est-ce que ForgeTax ?",
+      "paragraphs": [
+        "ForgeTax est un roguelite de forge construit autour d'une idée claire : vous dirigez une forge fantastique et un dragon attend d'être payé. Chaque partie vous fait récolter du minerai, chauffer le métal, forger des épées, tirer leurs statistiques et vendre les résultats aux aventuriers avant que la taxe de forge du dragon ne soit due.",
+        "Entre les parties, vous réinvestissez dans de meilleurs outils, des paliers de matériaux supérieurs et des lames plus puissantes. Les grands succès et les jets chanceux transforment une épée correcte en arme principale, tandis qu'un paiement manqué termine la partie en cendres. Des sessions courtes et répétables et des déblocages permanents font que chaque tentative ratée nourrit la suivante."
+      ],
+      "stats": [
+        {
+          "label": "Genre",
+          "value": "Roguelite de forge"
+        },
+        {
+          "label": "Plateforme",
+          "value": "PC (Steam)"
+        },
+        {
+          "label": "Boucle principale",
+          "value": "Forger, tirer, vendre"
+        },
+        {
+          "label": "Style de partie",
+          "value": "Parties roguelite courtes"
+        },
+        {
+          "label": "Menace principale",
+          "value": "La taxe du dragon"
+        },
+        {
+          "label": "Mécanique clé",
+          "value": "Jets de statistiques"
+        },
+        {
+          "label": "Rejouabilité",
+          "value": "Élevée"
+        }
+      ],
+      "cta": "Lire le guide du débutant"
+    },
+    "explore": {
+      "title": "Explorez Forgetax Wiki",
+      "description": "Tout ce dont un forgeron a besoin : tutoriels pour débutants, paliers de valeur des épées, références de reliques, stratégie de forge, mécaniques de partie, succès, commandes et configuration PC requise.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Guide du débutant ForgeTax",
+          "description": "Ce module couvre les premiers pas des nouveaux joueurs, notamment la boucle de forge, le chauffage des épées, les coups sur l'enclume, la gestion du risque et la survie aux premiers tributs. Il aide les débutants à comprendre les mécaniques de base avant de tenter des stratégies avancées.",
+          "href": "/guide/forgetax-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Terminez le tutoriel sans le passer pour apprendre les commandes de la forge"
+            },
+            {
+              "label": "2",
+              "detail": "Ouvrez chaque menu une fois et lisez les infobulles pour cartographier l'interface"
+            },
+            {
+              "label": "3",
+              "detail": "Amassez plus de minerai qu'il n'en faut pour une tentative avant de fabriquer"
+            },
+            {
+              "label": "4",
+              "detail": "Choisissez une seule lame comme arme principale et n'améliorez que celle-ci"
+            },
+            {
+              "label": "5",
+              "detail": "Réalisez de simples commandes de clients pour financer vos premières améliorations"
+            },
+            {
+              "label": "6",
+              "detail": "Mettez de l'or de côté pour la taxe de forge du dragon avant qu'elle ne soit due"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Guide de valeur des épées ForgeTax",
+          "description": "Ce module explique comment la valeur des épées augmente, comment les améliorations affectent les profits et comment les joueurs peuvent décider de continuer à forger ou de s'arrêter avant de perdre une lame précieuse. Il cible les recherches autour des améliorations d'épée, des calculs de valeur et de l'efficacité de forge.",
+          "href": "/progression/forgetax-sword-upgrade",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Lames à grand succès avec des jets de statistiques de premier ordre et le plus haut plafond d'amélioration"
+            },
+            {
+              "label": "A",
+              "detail": "Épées principales entièrement améliorées qui passent chaque contrôle de taxe"
+            },
+            {
+              "label": "B",
+              "detail": "Lames solides de milieu de partie qui valent la peine d'être améliorées et vendues"
+            },
+            {
+              "label": "C",
+              "detail": "Épées de départ à recycler pour du minerai ou à vendre à bas prix"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Guide des reliques ForgeTax",
+          "description": "Ce module organise les informations liées aux reliques, notamment la façon dont leurs effets influencent les stratégies de forge et comment les joueurs peuvent créer des combinaisons plus puissantes. Il aide les utilisateurs qui recherchent des effets de reliques, des builds et des conseils d'optimisation.",
+          "href": "/items/forgetax-god-tier-sword",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Niveau divin",
+              "detail": "Lames légendaires rares qui ancrent un build de fin de partie"
+            },
+            {
+              "label": "Minerai rare",
+              "detail": "Composants rares qui bloquent les améliorations les plus puissantes"
+            },
+            {
+              "label": "Jet parfait",
+              "detail": "Jets de statistiques parfaits qui multiplient la valeur d'une relique"
+            },
+            {
+              "label": "Recyclage",
+              "detail": "Transformez les reliques en surplus en matériaux pour la prochaine fabrication"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Stratégie de forge ForgeTax",
+          "description": "Ce module propose des conseils de stratégie pour gérer les risques de casse, les paiements de tribut et les décisions de ressources pendant les parties. Il se concentre sur l'amélioration de la survie et la maximisation des tentatives de forge réussies.",
+          "href": "/mechanics/forgetax-forge-system",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Principale",
+              "detail": "Concentrez les améliorations sur une lame principale par partie"
+            },
+            {
+              "label": "Réserve",
+              "detail": "Stockez le double de matériaux avant une grande fabrication"
+            },
+            {
+              "label": "Chaleur",
+              "detail": "Travaillez dans la fenêtre de chaleur pour des jets plus propres"
+            },
+            {
+              "label": "Évaluez",
+              "detail": "Comparez chaque lame à votre arme principale avant de vendre"
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Guide de frénésie ForgeTax",
+          "description": "Ce module explique la mécanique de frénésie, comment elle se charge et comment les joueurs peuvent l'utiliser pour créer de puissantes fenêtres de forge. Il cible les joueurs à la recherche de mécaniques avancées et d'optimisation de partie.",
+          "href": "/mechanics/forgetax-roguelite",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Préparez un équipement de départ adapté à vos déblocages permanents"
+            },
+            {
+              "label": "2",
+              "detail": "Dépensez la monnaie de partie pour le tempo et économisez la monnaie meta"
+            },
+            {
+              "label": "3",
+              "detail": "Réorientez-vous vers une synergie quand des élites apparaissent en cours de partie"
+            },
+            {
+              "label": "4",
+              "detail": "Gardez vos améliorations les plus puissantes pour la porte du boss"
+            },
+            {
+              "label": "5",
+              "detail": "Convertissez les récompenses d'après-partie en améliorations de forge permanentes"
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Guide des succès ForgeTax",
+          "description": "Ce module liste les objectifs de succès et fournit des conseils pour accomplir les défis difficiles. Il aide les chasseurs de succès à trouver les conditions et les stratégies d'achèvement.",
+          "href": "/progression/forgetax-great-successes",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Première partie",
+              "detail": "Terminez une partie complète et réglez la taxe de forge"
+            },
+            {
+              "label": "Saut de palier",
+              "detail": "Débloquez le palier de matériau suivant à la forge"
+            },
+            {
+              "label": "Jet parfait",
+              "detail": "Réalisez un grand succès sur une lame principale"
+            },
+            {
+              "label": "Victoire sur le dragon",
+              "detail": "Vainquez le dragon et terminez une partie"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Guide des commandes ForgeTax",
+          "description": "Ce module couvre les entrées clés de la forge, notamment la gestion de la chaleur, le timing du marteau et la trempe. Il aide les nouveaux joueurs à apprendre à utiliser la forge et à gérer leurs actions pendant les parties.",
+          "href": "/mechanics/forgetax-smithing",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Chaleur",
+              "detail": "Maintenez le lopin dans la fenêtre de chaleur de travail"
+            },
+            {
+              "label": "Marteau",
+              "detail": "Frappez à cadence régulière pour protéger le jet"
+            },
+            {
+              "label": "Trempe",
+              "detail": "Choisissez un milieu de refroidissement pour orienter la répartition des statistiques"
+            },
+            {
+              "label": "Finition",
+              "detail": "Ne validez que lorsque la lame dépasse votre arme principale"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Configuration requise ForgeTax",
+          "description": "Ce module fournit la configuration PC requise, les plateformes prises en charge et des informations techniques aux joueurs qui vérifient si leur système peut exécuter le jeu. Il couvre les recherches SEO courantes liées aux téléchargements et aux performances.",
+          "href": "/release/forgetax-pc",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "PC",
+              "detail": "Fonctionne sous Windows via la sortie officielle sur Steam"
+            },
+            {
+              "label": "Steam",
+              "detail": "Ajoutez la page du magasin à votre liste de souhaits et suivez-la pour les alertes de lancement"
+            },
+            {
+              "label": "GPU",
+              "detail": "Mettez à jour les pilotes graphiques avant le premier jour"
+            },
+            {
+              "label": "Démo",
+              "detail": "Essayez la démo gratuite avant de vous engager pour la sortie"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Questions fréquentes",
+      "description": "Des réponses rapides aux questions les plus courantes sur ForgeTax.",
+      "items": [
+        {
+          "question": "Qu'est-ce que ForgeTax ?",
+          "answer": "ForgeTax est un roguelite de forge où vous tenez une forge fantastique. Vous récoltez du minerai, forgez des épées, tirez leurs statistiques, vendez les résultats aux aventuriers et courez pour payer la taxe de forge du dragon avant la fin de la partie."
+        },
+        {
+          "question": "Comment fonctionne la taxe de forge du dragon ?",
+          "answer": "Le dragon prélève des frais récurrents qui servent de minuteur à la partie. Mettez assez d'or de côté pour le paiement avant de le dépenser dans un reroll de plus, sinon la partie se termine en cendres."
+        },
+        {
+          "question": "Que sont les grands succès dans ForgeTax ?",
+          "answer": "Un grand succès est un résultat rare et de haute qualité lors de la forge ou de l'amélioration. Il offre généralement le plus grand bond de valeur d'une arme, alors visez-le sur votre lame la plus puissante."
+        },
+        {
+          "question": "Faut-il améliorer toutes les épées dans ForgeTax ?",
+          "answer": "Non. Choisissez une arme par partie comme arme principale et concentrez-y les améliorations. Gardez une arme de secours bon marché pour les commandes de clients et recyclez toute lame inférieure à votre principale."
+        },
+        {
+          "question": "Quelles plateformes ForgeTax prend-il en charge ?",
+          "answer": "ForgeTax vise le PC et se suit via sa page Steam, où vous pouvez l'ajouter à votre liste de souhaits et suivre les mises à jour du développeur. Consultez la fiche officielle pour les détails actuels de démo et de sortie."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Prêt à maîtriser la forge dans Forgetax ?",
+      "description": "De votre premier coup de marteau aux parties de fin de jeu avec tribut au dragon, notre wiki communautaire couvre chaque forge, relique et amélioration d'épée avec des guides gratuits et à jour.",
+      "primary": "Lire le guide du débutant",
+      "secondary": "Jouer sur Steam"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Guides Forgetax",
+    "overviewDescription": "Commencez ici pour les guides, astuces et tutoriels Forgetax pour débutants qui couvrent vos premières parties de forge et la boucle principale."
+  },
+  "mechanics": {
+    "overviewTitle": "Mécaniques Forgetax",
+    "overviewDescription": "Découvrez comment fonctionnent réellement la forge, le forgeage d'épées, le combat et la structure de partie roguelite de Forgetax."
+  },
+  "items": {
+    "overviewTitle": "Objets et améliorations Forgetax",
+    "overviewDescription": "Parcourez les épées, armes, matériaux et voies d'amélioration de Forgetax, notamment comment viser une épée de niveau divin."
+  },
+  "progression": {
+    "overviewTitle": "Progression Forgetax",
+    "overviewDescription": "Comprenez la progression de Forgetax, la chance et les grands succès, les améliorations d'épée et la menace imminente de la taxe du dragon."
+  },
+  "release": {
+    "overviewTitle": "Informations de sortie Forgetax",
+    "overviewDescription": "Date de sortie de Forgetax, détails Steam et PC, sortie de la démo, bande-annonce officielle et informations sur le développeur."
+  },
+  "community": {
+    "overviewTitle": "Communauté Forgetax",
+    "overviewDescription": "Trouvez le Reddit Forgetax, les hubs communautaires, les discussions entre joueurs, les mises à jour et les dernières nouvelles."
+  },
+  "shared": {
+    "wikiNavigation": "Navigation du wiki",
+    "activeCodes": "Codes actifs",
+    "updated": "Mis à jour",
+    "viewAllCodes": "Voir tous les codes",
+    "playOnRoblox": "Jouer sur Steam",
+    "inThisSection": "Dans cette section",
+    "tableOfContents": "Table des matières",
+    "nextSteps": "Étapes suivantes",
+    "needHelp": "Besoin d'aide ?",
+    "relatedReading": "Lectures liées",
+    "relatedGuides": "Guides liés",
+    "readMore": "Lire la suite",
+    "officialMedia": "Médias officiels",
+    "home": "Accueil",
+    "noGuidesAvailable": "Aucun guide disponible pour le moment. Revenez bientôt !"
+  },
+  "footer": {
+    "aboutTitle": "Forgetax Wiki",
+    "about": "Forgetax Wiki est un hub de guides indépendant créé par des fans, couvrant les stratégies de forge, les améliorations d'épée, les builds de reliques, les boss et les connaissances essentielles du jeu, pour les nouveaux joueurs comme pour les vétérans.",
+    "quickLinks": "Liens rapides",
+    "guides": "Guides",
+    "legal": "Mentions légales",
+    "copyright": "2026 Forgetax Wiki. Non affilié à GraveYardDev ni à Valve Corporation.",
+    "description": "Roguelite de forge à la première personne et à l'ambiance sombre. Forgez des épées, défiez les probabilités, payez le tribut du dragon.",
+    "playGame": "Jouer à Forgetax sur Steam",
+    "officialDiscord": "Communauté Steam",
+    "officialYoutube": "YouTube officiel",
+    "vvBuilder": "Planificateur de forge (planificateur d'épées)",
+    "beginnerGuide": "Guide du débutant",
+    "privacyPolicy": "Politique de confidentialité",
+    "termsOfService": "Conditions d'utilisation",
+    "mechanicsGuides": "Mécaniques",
+    "itemsGuides": "Objets et améliorations",
+    "progressionGuides": "Progression"
+  }
+}
