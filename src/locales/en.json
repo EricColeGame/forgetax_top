@@ -38,27 +38,27 @@
     },
     "start": {
       "eyebrow": "Start Here",
-      "title": "Your Forgetax Journey",
+      "title": "Your ForgeTax Journey",
       "cards": [
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Learn the forge loop, bank your first ore, and avoid the early mistakes that stall new smiths."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "Sword Upgrade Guide",
+          "description": "Pick a carry blade, read its stat rolls, and push it toward the next tier before the tax is due."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "Materials Farming Guide",
+          "description": "Find reliable ore and rare-component sources so your next upgrade never waits on a bottleneck."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in Forgetax."
+          "title": "Dragon's Tax Guide",
+          "description": "Plan your economy around the dragon's payment and convert a strong blade into a finished run."
         }
       ]
     },
@@ -66,237 +66,319 @@
       "eyebrow": "Popular Pages",
       "title": "Trending Now",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Sword Upgrades",
+        "Materials",
+        "Great Successes",
+        "Dragon Tax"
       ],
       "cards": [
         {
           "badge": "Beginner",
           "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
+          "description": "Everything you need for your first forge run, from the tutorial to your first paid order.",
+          "href": "/guide/forgetax-beginner-guide"
+        },
+        {
+          "badge": "Core",
+          "title": "Sword Forging Guide",
+          "description": "Ore tiers, heat management, hammer timing, and the stat rolls that make a blade worth keeping.",
+          "href": "/mechanics/forgetax-sword-forging"
         },
         {
           "badge": "Updated",
-          "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
-        },
-        {
-          "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
+          "title": "Materials Guide",
+          "description": "Reliable farming sources, priority tiers, and the rare components that gate your next upgrade.",
+          "href": "/items/forgetax-materials"
         },
         {
           "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
+          "title": "Sword Upgrade Guide",
+          "description": "Progression order, material priorities, and the mistakes that stall your carry blade the longest.",
+          "href": "/progression/forgetax-sword-upgrade"
         },
         {
           "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
+          "title": "Forge System Explained",
+          "description": "How forging, upgrading, and refining convert raw materials into permanent power.",
+          "href": "/mechanics/forgetax-forge-system"
         },
         {
           "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
+          "title": "Blacksmith & Forge Tax",
+          "description": "How the dragon's forge tax drains crafting profits and the habits that keep your margins.",
+          "href": "/mechanics/forgetax-blacksmith"
+        },
+        {
+          "badge": "New",
+          "title": "Roguelite Mechanics",
+          "description": "Run structure, permadeath, build synergies, and the meta unlocks that carry between attempts.",
+          "href": "/mechanics/forgetax-roguelite"
         },
         {
           "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
+          "title": "Great Successes",
+          "description": "Milestones, daily habits, and the tracking methods that keep long-term progress moving.",
+          "href": "/progression/forgetax-great-successes"
         },
         {
           "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
-        },
-        {
-          "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "title": "PC Release Guide",
+          "description": "How to prepare your rig, verify official downloads, and tune settings for launch day.",
+          "href": "/release/forgetax-pc"
         }
       ]
     },
     "aboutGame": {
-      "title": "What is Forgetax?",
+      "title": "What is ForgeTax?",
       "paragraphs": [
-        "Forgetax is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "ForgeTax is a blacksmith roguelite built around one clean idea: you run a fantasy forge, and a dragon expects to be paid. Each run has you gather ore, heat metal, hammer out swords, roll their stats, and sell the results to adventurers before the dragon's forge tax comes due.",
+        "Between runs you reinvest into better tools, higher material tiers, and stronger blades. Great Successes and lucky stat rolls turn a decent sword into a carry weapon, while a missed tax payment ends the run in ash. Short repeatable sessions and permanent unlocks make every failed attempt feed the next one."
       ],
       "stats": [
         {
-          "label": "Developer",
-          "value": "Midnight Continent"
+          "label": "Genre",
+          "value": "Blacksmith Roguelite"
         },
         {
           "label": "Platform",
-          "value": "Roblox"
+          "value": "PC (Steam)"
         },
         {
-          "label": "Genre",
-          "value": "Fighting RPG"
+          "label": "Core Loop",
+          "value": "Forge, Roll, Sell"
         },
         {
-          "label": "Visits",
-          "value": "12.6M+"
+          "label": "Run Style",
+          "value": "Short Roguelite Runs"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
+          "label": "Main Threat",
+          "value": "The Dragon's Tax"
         },
         {
-          "label": "Total Skills",
-          "value": "130+"
+          "label": "Key Mechanic",
+          "value": "Stat Rolls"
         },
         {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Replayability",
+          "value": "High"
         }
       ],
-      "cta": "Explore All Guides"
+      "cta": "Read the Beginner Guide"
     },
     "explore": {
-      "title": "Explore Forgetax Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "title": "Explore ForgeTax Wiki",
+      "description": "Everything a smith needs: beginner walkthroughs, sword value tiers, relic references, forging strategy, run mechanics, achievements, controls, and PC requirements.",
       "modules": [
         {
           "order": 1,
-          "name": "Forgetax Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes/forgetax-codes",
-          "displayType": "code-box",
+          "name": "ForgeTax Beginner Guide",
+          "description": "This module covers the first steps for new players, including the forging loop, heating swords, striking the anvil, managing risk, and surviving early tribute requirements. It helps beginners understand the core mechanics before attempting advanced strategies.",
+          "href": "/guide/forgetax-beginner-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "1",
+              "detail": "Finish the tutorial without skipping so you learn the forge controls"
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "2",
+              "detail": "Open every menu once and read the tooltips to map the interface"
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "3",
+              "detail": "Bank more than one attempt's worth of ore before you craft"
+            },
+            {
+              "label": "4",
+              "detail": "Choose a single blade as your carry and upgrade only that weapon"
+            },
+            {
+              "label": "5",
+              "detail": "Fill simple customer orders to fund your first upgrades"
+            },
+            {
+              "label": "6",
+              "detail": "Set aside gold for the dragon's forge tax before it comes due"
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide/forgetax-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "ForgeTax Sword Value Guide",
+          "description": "This module explains how sword value grows, how upgrades affect profits, and how players can decide when to continue forging or stop before losing a valuable blade. It targets searches around sword upgrades, value calculations, and forging efficiency.",
+          "href": "/progression/forgetax-sword-upgrade",
+          "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "S",
+              "detail": "Great Success blades with top-tier stat rolls and the highest upgrade ceiling"
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "A",
+              "detail": "Fully upgraded carry swords that clear every tax check"
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "B",
+              "detail": "Solid mid-run blades worth upgrading and selling"
+            },
+            {
+              "label": "C",
+              "detail": "Starter swords best salvaged for ore or sold cheap"
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/forgetax-tier-list",
-          "displayType": "tier-grid",
+          "name": "ForgeTax Relics Guide",
+          "description": "This module organizes relic-related information, including how relic effects influence forging strategies and how players can create stronger combinations. It helps users searching for relic effects, builds, and optimization tips.",
+          "href": "/items/forgetax-god-tier-sword",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "God Tier",
+              "detail": "Rare legendary blades that anchor an endgame build"
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "Rare Ore",
+              "detail": "Scarce components that gate the strongest upgrades"
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "Great Roll",
+              "detail": "Perfect stat rolls that multiply a relic's value"
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "Salvage",
+              "detail": "Turn spare relics into materials for the next craft"
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/forgetax-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "ForgeTax Forging Strategy",
+          "description": "This module provides strategy tips for managing break chances, tribute payments, and resource decisions during runs. It focuses on improving survival and maximizing successful forging attempts.",
+          "href": "/mechanics/forgetax-forge-system",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "Carry",
+              "detail": "Pour upgrades into one primary blade per run"
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "Bank",
+              "detail": "Stockpile double the materials before a big craft"
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "Heat",
+              "detail": "Work inside the heat window for cleaner stat rolls"
+            },
+            {
+              "label": "Evaluate",
+              "detail": "Compare every blade to your carry before selling"
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/forgetax-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "ForgeTax Frenzy Guide",
+          "description": "This module explains the Frenzy mechanic, how it is charged, and how players can use it to create powerful forging windows. It targets players looking for advanced mechanics and run optimization.",
+          "href": "/mechanics/forgetax-roguelite",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "1",
+              "detail": "Prep a starting loadout that matches your permanent unlocks"
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "2",
+              "detail": "Spend in-run currency for tempo and bank meta currency"
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "3",
+              "detail": "Pivot toward a synergy when elites appear mid-run"
+            },
+            {
+              "label": "4",
+              "detail": "Save your strongest upgrades for the boss gate"
+            },
+            {
+              "label": "5",
+              "detail": "Convert post-run rewards into permanent forge upgrades"
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/forgetax-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "ForgeTax Achievements Guide",
+          "description": "This module lists achievement objectives and provides guidance for completing difficult challenges. It helps achievement hunters find requirements and completion strategies.",
+          "href": "/progression/forgetax-great-successes",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "First Run",
+              "detail": "Complete a full run and settle the forge tax"
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "Tier Jump",
+              "detail": "Unlock the next material tier at the forge"
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "Great Roll",
+              "detail": "Land a Great Success on a carry blade"
+            },
+            {
+              "label": "Dragon Win",
+              "detail": "Defeat the dragon and close out a run"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "ForgeTax Controls Guide",
+          "description": "This module covers the key inputs of the forge, including heat management, hammer timing, and quenching. It helps new players learn how to operate the forge and manage actions during runs.",
+          "href": "/mechanics/forgetax-smithing",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Heat",
+              "detail": "Hold the billet inside the working-heat window"
+            },
+            {
+              "label": "Hammer",
+              "detail": "Strike at a steady cadence to protect the roll"
+            },
+            {
+              "label": "Quench",
+              "detail": "Pick a cooling medium to steer the stat spread"
+            },
+            {
+              "label": "Finish",
+              "detail": "Commit only when the blade beats your carry"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "ForgeTax System Requirements",
+          "description": "This module provides PC requirements, supported platforms, and technical information for players checking whether their system can run the game. It captures common SEO searches related to downloads and performance.",
+          "href": "/release/forgetax-pc",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "PC",
+              "detail": "Runs on Windows through the official Steam release"
+            },
+            {
+              "label": "Steam",
+              "detail": "Wishlist and follow the store page for launch alerts"
+            },
+            {
+              "label": "GPU",
+              "detail": "Update graphics drivers before day one"
+            },
+            {
+              "label": "Demo",
+              "detail": "Try the free demo before committing to launch"
             }
           ]
         }
@@ -304,27 +386,27 @@
     },
     "faq": {
       "title": "Frequently Asked Questions",
-      "description": "Quick answers to the most common questions about Forgetax.",
+      "description": "Quick answers to the most common questions about ForgeTax.",
       "items": [
         {
-          "question": "What is Forgetax?",
-          "answer": "Forgetax is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "question": "What is ForgeTax?",
+          "answer": "ForgeTax is a blacksmith roguelite about running a fantasy forge. You gather ore, hammer swords, roll their stats, sell the results to adventurers, and race to pay the dragon's forge tax before the run ends."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "How does the dragon's forge tax work?",
+          "answer": "The dragon collects a recurring fee that acts as the run's timer. Set aside enough gold for the payment before you spend on one more reroll, or the run ends in ash."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "What are Great Successes in ForgeTax?",
+          "answer": "A Great Success is a rare, high-quality outcome while forging or upgrading. It usually delivers the biggest single jump in a weapon's worth, so chase it on your strongest blade."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "Should I upgrade every sword in ForgeTax?",
+          "answer": "No. Pick one weapon per run as your carry and pour upgrades into it. Keep a cheap backup for customer orders, and salvage any blade that falls below your carry."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "Which platforms does ForgeTax support?",
+          "answer": "ForgeTax targets PC and is tracked through its Steam store page, where you can wishlist it and follow developer updates. Check the official listing for the current demo and launch details."
         }
       ]
     },
